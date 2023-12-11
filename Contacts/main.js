@@ -12,7 +12,7 @@ function openAboutPage() {
 }
 
 function openProjectsPage() {
-    window.location.href = '../index.html'
+    window.location.href = '../Projects/index.html'
 }
 
 function openContactsBtn() {
