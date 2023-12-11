@@ -32,4 +32,4 @@ If you want to run this site locally, follow these instructions:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Pedyz/Portfolio-Website.git

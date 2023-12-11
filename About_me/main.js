@@ -4,15 +4,15 @@ const projectsBtn = document.getElementById('projects')
 const contactsBtn = document.getElementById('contacts')
 
 function openHomePage() {
-    window.location.href = 'index.html'
+    window.location.href = '../index.html'
 }
 
 function openAboutPage() {
-    window.location.href = 'About_me/index.html'
+    window.location.href = 'index.html'
 }
 
 function openProjectsPage() {
-    window.location.href = 'Projects/index.html'
+    window.location.href = '../Projects/index.html'
 }
 
 function openContactsBtn() {
