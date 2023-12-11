@@ -16,7 +16,7 @@ function openProjectsPage() {
 }
 
 function openContactsBtn() {
-    window.location.href = 'Contacts/index.html'
+    window.location.href = '../Contacts/index.html'
 }
 
 homeBtn.addEventListener('click', openHomePage)
