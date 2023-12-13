@@ -65,3 +65,42 @@ header li:active, header img:active {
     color: black;
     transition: 0s;
 }
+
+main {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+main section {
+    width: 90%;
+    margin: 0 auto;
+    height: 91vh;
+}
+
+main h2 {
+    font-size: 3rem;
+
+}
+
+main h3 {
+    font-size: 1.5rem;
+}
+
+.cards {
+    text-align: center;
+    background-color: #100F10;
+    padding: 20px 25px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+#first {
+    top: 50px;
+    width: 55%;
+}
+
+#second {
+    top: 100px;
+    width: 75%;
+}
