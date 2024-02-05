@@ -2,6 +2,8 @@ const homeBtn = document.getElementById('home')
 const aboutBtn = document.getElementById('about-me')
 const projectsBtn = document.getElementById('projects')
 const contactsBtn = document.getElementById('contacts')
+const msgGenBtn = document.getElementById('msg-gen')
+
 
 function openHomePage() {
     window.location.href = '../index.html'
@@ -18,6 +20,12 @@ function openProjectsPage() {
 function openContactsBtn() {
     window.location.href = '../Contacts/index.html'
 }
+
+function openMsgGen() {
+    window.open('https://github.com/Pedyz/message_generator', '_blank')
+}
+
+msgGenBtn.addEventListener('click', openMsgGen)
 
 homeBtn.addEventListener('click', openHomePage)
 
